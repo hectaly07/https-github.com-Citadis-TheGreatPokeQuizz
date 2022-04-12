@@ -1,0 +1,15 @@
+<main>
+    <!-- random pokemon sprite -->
+<img *ngIf="RandomPokemon" src="" [src]='RandomPokemon["sprites"]["other"]["official-artwork"]["front_default"]' class="pokemon-image" alt="Pokemon Image">
+
+<!-- 3 random propositions -->
+<div class="propositions">
+    <button (click)="showPokemonImage()" class="proposition">{{RandomProposition1}}</button>
+    <button class="proposition">{{RandomProposition2}}</button>
+    <button class="proposition">{{RandomProposition3}}</button>
+</div>
+
+
+
+
+</main>

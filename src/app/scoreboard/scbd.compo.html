@@ -1,0 +1,15 @@
+<table>
+    <thead>
+        <tr>
+            <th colspan="3"><h1>Tableau des scores :</h1></th>
+        </tr>
+        <tr>
+            <th>Nom</th>
+            <th>Score</th>
+            <th>Date</th>
+        </tr>
+    </thead>
+    <tbody id="scoreSpace">
+        <tr *ngFor="let player of playerSCBD"><th>{{ player.name }}</th><th>{{ player.score }}</th><th>{{ player.date }}</th></tr>
+    </tbody>
+</table>
